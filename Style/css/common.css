@@ -1,0 +1,549 @@
+﻿/*主要用于定义网页的框架*/
+body, ul, p, dd, h1, h2, h3, h4, h5, h6
+{
+    margin: 0;
+}
+ul
+{
+    padding: 5px;
+}
+#wrapper
+{
+}
+#header
+{
+    width: 100%;
+    height: 50px;
+}
+#logo
+{
+    position: absolute;
+    left: 15px;
+    top: 0;
+    height: 50px;
+}
+#nav
+{
+    position: absolute;
+    right: 5px;
+    top: 0;
+}
+#links, #login
+{
+    height: 25px;
+    text-align: right;
+}
+#links
+{
+    margin-right: 5px;
+}
+#login
+{
+    right: 5px;
+    position: absolute;
+    top: 25px;
+}
+#nav span
+{
+    margin: 0 3px;
+    line-height: 25px;
+}
+#content
+{
+    padding: 0 10px 0 0;
+}
+#left
+{
+    width: 199px;
+    height: 100%;
+    position: absolute;
+    left: 0;
+}
+#resize
+{
+    position: absolute;
+    left: -6px;
+    top: 50px;
+    cursor: pointer;
+}
+.menu
+{
+    padding-left: 30px;
+}
+.home
+{
+    margin: 15px 0 10px 0;
+}
+.section h3
+{
+    margin: 10px 0 5px 0;
+    cursor: pointer;
+}
+.expand_container
+{
+    position: relative;
+}
+.expand_container .icon
+{
+    left: -20px;
+    width: 17px;
+    position: absolute;
+    height: 17px;
+}
+.menu_item
+{
+    padding: 0;
+}
+.menu_item li
+{
+    list-style: none;
+}
+#right
+{
+    width: auto;
+    position: relative;
+    margin: 0 0 0 205px;
+    padding: 1px 1px 0 5px;
+}
+
+#notice
+{
+    height: 25px;
+    margin: 4px 0 4px 0;
+}
+#notice .notice_head
+{
+    line-height: 25px;
+    margin-left: 4px;
+}
+#itemscontainer
+{
+    width: 100%;
+}
+#itemscontainer .items
+{
+    float: left;
+    height: 600px;
+    margin-left: 16px;
+}
+#itemscontainer .items:first-child
+{
+    margin-left: 1px;
+}
+#itemscontainer .items .item
+{
+    margin: 10px 0;
+}
+#itemscontainer .items .item h3
+{
+    margin: 0;
+    padding: 5px 0 5px 10px;
+}
+#itemscontainer .items .item ul
+{
+    list-style: none;
+}
+#itemscontainer .items .item ul li .time
+{
+    position: absolute;
+    right: 10px;
+}
+#topics li a
+{
+    padding-left: 18px;
+}
+#mails li span.sender
+{
+    padding-left: 18px;
+}
+
+#stars dl, #stars_clone dl
+{
+    width: 90px;
+    display: block;
+}
+#stars td, #stars_clone td
+{
+    padding: 0 3px;
+}
+#stars td, #stars img, #stars p, #stars_clone td, #stars_clone img, #stars_clone p
+{
+    width: 90px;
+    text-align: center;
+    border: 0;
+}
+#stars p, #stars_clone p
+{
+    margin-top: 4px;
+}
+#stars p a, #stars_clone p a
+{
+    text-decoration: none;
+    font-size: 14px;
+}
+#stars img, #stars_clone img
+{
+    height: 90px;
+}
+.stars_container
+{
+    overflow: hidden;
+}
+#knowledge li a
+{
+    padding-left: 18px;
+}
+
+.clear
+{
+    clear: both;
+}
+.ui-sortable-placeholder
+{
+    border: 2px dashed #CCC;
+    visibility: visible !important;
+    height: 150px !important;
+}
+.ui-sortable-placeholder *
+{
+    visibility: hidden;
+}
+/*用户管理*/
+#operate
+{
+    float: right;
+    width: 100px;
+}
+fieldset.contain_actions
+{
+    border: 0;
+    margin-right: 15px;
+    float: left;
+    z-index:2;
+}
+fieldset
+{
+    margin: 0 0 1em 0;
+    padding: 6px 0 0;
+}
+textarea
+{
+    padding: 3px;
+    border: 1px solid #bdbcbc;
+}
+textarea
+{
+    min-height: 8em;
+}
+select
+{
+    padding: 1px;
+}
+/*****部门管理************/
+#tab_container ul, #tab_container li
+{
+    float: left;
+    list-style: none;
+}
+#tab_container
+{
+    position: relative;
+    line-height: 1.5em;
+    border: 1px solid #fff;
+    border-bottom: 1px solid #aaa;
+}
+#tab_container ul
+{
+    margin-bottom: -1px;
+    padding: 0;
+}
+#tab_container ul li a
+{
+    padding: 3px 4px 2px 4px;
+    background-color: #ddd;
+    border: 1px solid #aaa;
+    list-style-position: outside;
+    margin-left: 5px;
+    letter-spacing: 1px;
+    display: block;
+    text-decoration: none;
+}
+#tab_container ul li a.current
+{
+    border-bottom: 1px solid #fff;
+    background-color: #fff;
+}
+#tab_content
+{
+    min-height: 450px;
+}
+#tab_content ul, #tab_content ul li
+{
+    line-height: 1.6em;
+    list-style: none;
+    margin: 5px 0;
+}
+#tab_content li input[type="text"], #tab_content input[type="password"]
+{
+    width: 200px;
+    padding: 4px;
+    border: 1px solid #999;
+}
+#tab_content .from_title
+{
+    vertical-align: middle;
+}
+table.schedule
+{
+    border: 1px solid #aaa;
+    border-bottom: none;
+    border-right: none;
+    margin: 15px auto;
+}
+table.schedule th
+{
+    color: #383838;
+    font-weight: 600;
+    background-color: #efefef;
+}
+table.schedule th, table.schedule td
+{
+    width: 12.5%;
+    border-right: 1px solid #aaa;
+    border-bottom: 1px solid #aaa;
+    height: 35px;
+    text-align: center;
+}
+table.schedule .highlight_num
+{
+    color: Red;
+    font-weight: bold;
+    margin: auto 2px;
+    font-size: 14px;
+}
+#avatar_preview
+{
+    float: left;
+    width: 170px;
+    text-align: center;
+}
+#set_avatar
+{
+    margin: 10px 0 0 170px;
+    padding-top: 30px;
+}
+#set_avatar p
+{
+    line-height: 2em;
+}
+.mail_nav
+{
+    margin-top: 25px;
+}
+.mail_nav .search
+{
+    float: right;
+}
+.mail_editor
+{
+    margin: 15px 5px 5px 5px;
+}
+.mail_editor_item
+{
+    margin-top: 5px;
+}
+.mail_receive_input
+{
+    width: 100%;
+}
+.mail_receive_control
+{
+    text-decoration: none;
+}
+.mail_editor_title
+{
+    width: 40px;
+    text-align: right;
+    margin-right: 15px;
+    float: left;
+    line-height: 25px;
+    height: 25px;
+}
+.mail_editor_content
+{
+    width: 71%;
+    float: left;
+}
+.notop
+{
+    margin-top: 5px;
+}
+.mail_header
+{
+    margin: 20px 0 0 0;
+    background-color: #efefef;
+    padding: 10px;
+    border-bottom: 1px solid #888;
+}
+.mail_header_attr
+{
+    margin: 20px 0 0 0;
+}
+.mail_avatar
+{
+    float: left;
+    padding: 2px;
+}
+.user_icon
+{
+    width: 45px;
+    height: 45px;
+    padding: 1px;
+    border: 1px solid #ededed;
+}
+.attrs
+{
+    float: left;
+    margin: 0 0 0 5px;
+}
+
+.sender
+{
+    color: Green;
+    font-weight: bold;
+}
+.attr_item
+{
+    line-height: 1.4em;
+}
+.mail_content
+{
+    position: relative;
+    background-color: White;
+}
+table.topic_list
+{
+    width: 100%;
+    margin-top: 25px;
+    padding: 5px;
+}
+table.topic_list thead th
+{
+    font-weight: normal;
+    line-height: 1.8em;
+    border-bottom: 1px solid #bbb;
+    border-top: 1px solid #bbb;
+    background-color: #efefef;
+}
+table.topic_list tbody tr td
+{
+    border-bottom: 1px dotted #ddd;
+    text-align: center;
+    line-height: 1.5em;
+}
+table.topic_list tbody tr td.left
+{
+    text-align: left;
+    padding-left: 5px;
+}
+table.topic_list tbody tr:nth-child(even)
+{
+    background-color: #efefef;
+}
+.r3
+{
+    height: 1px;
+    border-bottom: solid 1px #e6e6e6;
+    margin: 0 2px;
+}
+.r2
+{
+    height: 1px;
+    border-left: solid 2px #e6e6e6;
+    border-right: solid 2px #e6e6e6;
+    margin: 0 1px;
+}
+.r1
+{
+    height: 1px;
+    border-left: solid 1px #e6e6e6;
+    border-right: solid 1px #e6e6e6;
+    margin: 0;
+}
+.topic_view
+{
+    width: 900px;
+}
+.topic_view .view_item
+{
+    padding: 0.4em 10px;
+    border-left: solid 1px #e6e6e6;
+    border-right: solid 1px #e6e6e6;
+}
+.topic_view .view_item .topic_title
+{
+    margin: 10px 0;
+}
+.view_submit_time
+{
+    color: Gray;
+    margin: 4px 0 10px 0;
+}
+.topic_content
+{
+    float: right;
+    width: 100%;
+    margin-left: -50px;
+    line-height: 18px;
+}
+.topic_content .content
+{
+    margin-left: 55px;
+}
+.topic_avatar
+{
+    float: left;
+}
+.topic_avatar a
+{
+    text-align:center;
+    width:50px;
+    display:block;
+}
+
+.children
+{
+    margin: 10px 0 5px 50px;
+}
+.topic_reply
+{
+    width: 900px;
+    margin: 10px 0;
+    padding: 10px 0;
+}
+.reply_editor
+{
+    margin:5px 15px;
+}
+.topic_reply h3, .topic_reply textarea
+{
+    margin:0 0 5px 0;
+}
+.b_l_r
+{
+    position: relative;
+    border-left: solid 1px #e6e6e6;
+    border-right: solid 1px #e6e6e6;
+    margin: 0;
+}
+.center
+{
+    text-align:center;
+    
+}
+.page_category
+{
+    padding:10px;
+    color:#383838;
+    
+}

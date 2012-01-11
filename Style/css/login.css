@@ -1,0 +1,95 @@
+﻿body
+{
+    background: #fff;
+    padding: 0;
+    margin: 0;
+    font-size: 12px;
+}
+h3
+{
+    font-family: "微软雅黑" , "宋体";
+    font-size: 16px;
+    color: #666;
+}
+#content
+{
+    width: 1000px;
+    margin: 50px auto 30px auto;
+}
+#talks
+{
+    float: left;
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-image: url(../image/login_split.jpg);
+    height: 400px;
+    width: 640px;
+}
+#nav
+{
+    height: 24px;
+    padding: 0;
+    vertical-align: middle;
+}
+#nav ul
+{
+    list-style: none;
+    float: right;
+    margin: 0;
+    line-height: 20px;
+}
+#nav ul li
+{
+    float: right;
+}
+#login
+{
+    float: right;
+    width: 340px;
+}
+#login table
+{
+    margin: 20px 0 0 35px;
+}
+#btnSubmit
+{
+    border: solid 1px #999;
+    cursor: pointer;
+    padding: 0.3em 1em;
+    margin-right: 10px;
+    background-color:#fefefe;
+}
+#btnSubmit:hover
+{
+    background: #e3e3e3;
+}
+#login ul li
+{
+    list-style: none;
+    margin:5px 0 0 0;
+    line-height:45px;
+}
+
+.clear
+{
+    clear: both;
+}
+.input_box
+{
+    padding: 4px;
+    height: 19px;
+    width: 150px;
+    font-size: 14px;
+    border: 1px solid #999;
+}
+.title
+{
+    display:block;
+    font-size: 14px;
+    color: #383838;
+}
+.input_box_active
+{
+    border: 1px solid #000;
+    color:#383838;
+}
